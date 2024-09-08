@@ -1,0 +1,62 @@
+header {
+    background-image: url("../IMAGE/ELEEMENTO.png");
+    background-color: var(--colorvrdclr);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: auto;
+
+    & img {
+        width: 150px;
+        height: auto;
+    }
+}
+
+
+.menu nav {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+
+    & ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        gap: 50px;
+
+        & li {
+            list-style: none;
+            color: white;
+
+            & a {
+                color: var(--colorblanco);
+                font-size: 1.25rem;
+                font-weight: 500;
+            }
+
+            & a:hover {
+                color: var(--colorceleste)
+            }
+        }
+    }
+}
+
+.menu {
+    width: 100%;
+}
