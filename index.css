@@ -1,0 +1,253 @@
+@import url(style.css);
+
+/*estilos de la seccion portada*/
+
+#portada {
+    background-color: #ffffff;
+    padding-top: 50px;
+}
+
+
+.foto_portada {
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+
+    & img {
+        width: 700px;
+        height: 250px;
+    }
+}
+
+.textos_portada {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+
+    & h1 {
+        color: var(--colorazul);
+    }
+
+}
+
+#portada2 {
+    background-image: url("../IMAGE/image\ 1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.portada2 {
+    height: 600px
+}
+
+.boton_portada {
+    height: 100%;
+    margin-top: 250px;
+    margin-left: 280px;
+    align-items: center;
+}
+
+.sugerencias {
+    background-color: #043D07;
+
+    & h4 {
+        text-align: center;
+        color: #ffffff;
+    }
+
+}
+
+.espacio {
+    background-color: transparent;
+    width: 100px;
+}
+
+.productos_titulo h3 {
+    text-align: center;
+    color: var(--colorazul);
+    padding-bottom: 80px;
+}
+
+.SERVICIOS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    & p {
+        text-align: center;
+    }
+}
+
+.servicio_foto img {
+    width: 100%;
+    height: auto;
+    border-radius: 15%;
+}
+
+#NOSOTROS {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+
+    & h2 {
+        font-size: 100px;
+    }
+
+}
+
+.US {
+    padding-left: 160px;
+}
+
+.cncnsimagen {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    & img {
+        width: 740px;
+        height: 830px;
+    }
+}
+
+.carru_foto img {
+    width: 453px;
+    height: 561px;
+    border-radius: 15%;
+}
+
+#VISMIS {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+
+    & h2 {
+        font-size: 100px;
+    }
+
+}
+
+.VIS {
+    padding-left: 160px;
+}
+
+.MIS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-right: 160px;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    width: 1391;
+    height: 528;
+}
+
+.hero { 
+    background: url("../IMAGE/ES.png") no-repeat center center/cover;
+    padding: 50px 0;
+    color: white;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.hero p {
+    max-width: 600px;
+    margin-bottom: 30px;
+    text-align: left;
+    padding-left: 0;
+}
+
+.contact-info p {
+    font-size: 18px;
+}
+
+.form-section {
+    background-color: white;
+    padding: 40px;
+    max-width: 900px;
+    margin: 30px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-section form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-section label {
+    width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-section input,
+.form-section select,
+.form-section textarea {
+    width: 48%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-section input[type="file"] {
+    width: 100%;
+}
+
+.form-section button {
+    width: 100%;
+    padding: 10px;
+    background-color: #64a70b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.footer-info,
+.footer-contact,
+.social-media {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #64a70b;
+    color: white;
+}
+
+.footer-info ul,
+.footer-contact ul,
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-info ul li,
+.footer-contact ul li {
+    margin-bottom: 10px;
+}
+
+.social-media ul li {
+    display: inline;
+    margin: 0 10px;
+}
